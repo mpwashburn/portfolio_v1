@@ -1,6 +1,70 @@
-.bgimage {
-  background-image: url('../img/bkgrnd_nature.png');
-  background-position: center;
-  background-size: cover;
-  height: 600px;
+body{
+padding-bottom: 200px;
+background: #ddd;
+}
+
+/*makes image fill the content width of the containing element*/
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+#mynav{
+  margin-bottom: 0;
+}
+.jumbo {
+    min-height: 100vh;
+    background: url(../img/bkgrnd_nature-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand{
+  font-size: 36px;
+}
+.subhead{
+  font-size: 26px;
+}
+
+.card {
+  box-shadow: 0 0 5px #ccc;
+}
+/*all images in an anchor tag when hovered over within the card class will change opacity*/
+.card a:hover img{
+  opacity: .8;
+}
+.card-content {
+  padding: 10px;
+  background: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.card-content p, .card-content h3 {
+  margin: 0;
+}
+
+.social {
+  position: fixed;
+  left: 0;
+  top: 50vh;
+}
+
+.social a{
+  display: block;
+  background: teal;
+  color: white;
+  padding: 5px;
+}
+
+.social .fa{
+  font-size: 200%;
+  padding: 15px;
+}
+
+.social a:nth-child(2){
+  background: #007bb5;
+}
+
+.social a:first-child{
+  background: black;
 }

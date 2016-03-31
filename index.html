@@ -6,39 +6,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title>Michael Washburn</title>
 </head>
-<body>
-
-<header class="bgimage">
-  <div class="container">
-  <div class="row">
-  <div class="col-md-6">
-    <h1>Michael Washburn</h1>
+<body class="grad">
+<nav id="mynav" class="navbar navbar-default" role=navigation>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="Icon-bar"></span>
+        <span class="Icon-bar"></span>
+        <span class="Icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#featured">Michael Washburn <span class="subhead"></Coder></span></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#featured">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#find">Contact</a></li>
+        </ul>
+      </div><!-- collapse navbar-collapse-->
   </div>
-  </div>
-  </div>
-</header>
-
-<div class="container">
+</nav>
+<section class="jumbo"></section>
+<div class="projects container">
+<h2>Newest Projects</h2>
 <div class="row">
-<div class="col-sm-4">
-<h1>Project 1</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+  <section class="col-md-4">
+    <div class="card">
+      <a href="#"><img class="icon img-responsive" src="img/thumbnail_placeholder.png" alt="Icon"></a>
+      <div class="card-content">
+        <h3>Project 1 <small>Wordpress | CSS3 | Bootstrap</small></h3>
+        <p>Here is a description of this project that will encourage a viewer to click and learn more about my fabulous work!</p>
+        <p class="text-right"><a href="#" class="btn btn-danger">Read more</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="col-md-4">
+    <div class="card">
+      <a href="#"><img class="icon img-responsive" src="img/thumbnail_placeholder.png" alt="Icon"></a>
+      <div class="card-content">
+        <h3>Project 2 <small>Node.JS | Angular 1 | MongoDB</small></h3>
+        <p>Here is a description of this project that will encourage a viewer to click and learn more about my fabulous work!</p>
+        <p class="text-right"><a href="#" class="btn btn-danger">Read more</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="col-md-4">
+    <div class="card">
+      <a href="#"><img class="icon img-responsive" src="img/thumbnail_placeholder.png" alt="Icon"></a>
+      <div class="card-content">
+        <h3>Project 3 <small>Node.JS | React.JS</small></h3>
+        <p>Here is a description of this project that will encourage a viewer to click and learn more about my fabulous work!</p>
+        <p class="text-right"><a href="#" class="btn btn-danger">Read more</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
 </div>
 
-<div class="col-sm-4">
-<h1>Project 2</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+<div class="social">
+  <a href="github"> <i class="fa fa-github"></i></a>
+  <a href="LinkedIn"><i class="fa fa-linkedin"></i></a>
 </div>
-
-<div class="col-sm-4">
-<h1>Project 3</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-</div>
-</div>
-</div>
-
 
 <!-- ************************************************************************ -->
   <script src="js/jquery-2.2.2.min.js"></script>
