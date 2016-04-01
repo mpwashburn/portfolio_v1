@@ -1,5 +1,5 @@
 body{
-padding-bottom: 200px;
+/*padding-bottom: 200px;*/
 background: #ddd;
 }
 
@@ -43,6 +43,10 @@ background: #ddd;
   margin: 0;
 }
 
+.text-content {
+  min-height: 105px;
+}
+
 .social {
   position: fixed;
   left: 0;
@@ -67,4 +71,9 @@ background: #ddd;
 
 .social a:first-child{
   background: black;
+}
+
+footer {
+  margin-top: 50px;
+  background: white;
 }

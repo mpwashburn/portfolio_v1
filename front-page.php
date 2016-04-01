@@ -5,10 +5,10 @@
 <div class="row">
   <section class="col-md-4">
     <div class="card">
-      <a href="#"><img class="icon img-responsive" src="img/thumbnail_placeholder.png" alt="Icon"></a>
+      <a href=""><img class="icon img-responsive" src="<?php echo get_template_directory_uri() ?>/img/Everest_Game_SS.jpg" alt="Icon"></a>
       <div class="card-content">
-        <h3>Project 1 <small>Wordpress | CSS3 | Bootstrap</small></h3>
-        <p>Here is a description of this project that will encourage a viewer to click and learn more about my fabulous work!</p>
+        <h3>Everest Trivia <small>HTML | CSS | Javascript</small></h3>
+        <p class="text-content">Everest is a simple trivia game that was developed in the first few weeks of code school at General Assembly. Inspired by my love of the outdoors and wanting to seek more through nature</p>
         <p class="text-right"><a href="#" class="btn btn-danger">Read more</a></p>
       </div>
     </div>
@@ -16,10 +16,10 @@
 
   <section class="col-md-4">
     <div class="card">
-      <a href="#"><img class="icon img-responsive" src="img/thumbnail_placeholder.png" alt="Icon"></a>
+      <a href="#"><img class="icon img-responsive" src="<?php echo get_template_directory_uri() ?>/img/TTT.jpg" alt="Icon"></a>
       <div class="card-content">
-        <h3>Project 2 <small>Node.JS | Angular 1 | MongoDB</small></h3>
-        <p>Here is a description of this project that will encourage a viewer to click and learn more about my fabulous work!</p>
+        <h3>Tic-Tac-Toe <small>HTML | CSS | Javascript</small></h3>
+        <p class="text-content">The classic Tic-Tac-Toe game built in week 1 of code school at General Assembly</p>
         <p class="text-right"><a href="#" class="btn btn-danger">Read more</a></p>
       </div>
     </div>
@@ -27,10 +27,10 @@
 
   <section class="col-md-4">
     <div class="card">
-      <a href="#"><img class="icon img-responsive" src="img/thumbnail_placeholder.png" alt="Icon"></a>
+      <a href="#"><img class="icon img-responsive" src="<?php echo get_template_directory_uri() ?>/img/portfolio_ss.jpg" alt="Icon"></a>
       <div class="card-content">
-        <h3>Project 3 <small>Node.JS | React.JS</small></h3>
-        <p>Here is a description of this project that will encourage a viewer to click and learn more about my fabulous work!</p>
+        <h3>Portfolio <small>Bootstrap | CSS | Wordpress</small></h3>
+        <p class="text-content">My portfolio site is my first project where I am working with custom wordpress themes. </p>
         <p class="text-right"><a href="#" class="btn btn-danger">Read more</a></p>
       </div>
     </div>
