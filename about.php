@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <title>Michael Washburn</title>
-</head>
-<body>
-<section>
-  <div class="container">
+<?php get_header(); ?>
+
+<?php if (have_posts()) : ?>
+<?php while(have_posts()) : the_post(); ?>
+
+<section class="page">
+  <div class="container-fluid">
     <h1>About Me</h1>
     <div class="row">
       <div class="col-md-4">
@@ -28,16 +21,3 @@
   </div>
 
 </section>
-
-
-
-
-
-
-
-<!-- ************************************************************************ -->
-  <script src="js/jquery-2.2.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-</html>
