@@ -5,7 +5,6 @@
 
 <section class="page">
   <div class="container-fluid">
-    <h1>About Me</h1>
     <div class="row">
       <div class="col-md-4">
         <img class="icon img-responsive" src="img/me_about_page.jpg" alt="">

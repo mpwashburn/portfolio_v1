@@ -13,6 +13,7 @@
             <?php endif; ?>
       </div>
       <div class="col-md-8 content">
+        <h3><?php the_title(); ?></h3>
         <!-- content function grabs post/page content including html tags -->
         <?php the_content(); ?>
         <a href="../contact.php">Contact me</a>

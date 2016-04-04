@@ -1,4 +1,4 @@
 <?php
-add_theme_support( 'post-thumbnails', array('page') );
+add_theme_support( 'post-thumbnails', array('page', 'post') );
 
 ?>

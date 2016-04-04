@@ -32,6 +32,11 @@ background: #ddd;
 .card a:hover img{
   opacity: .8;
 }
+
+.card .size-large {
+  width: 100%;
+  height: auto;
+}
 .card-content {
   padding: 10px;
   background: white;
@@ -41,6 +46,16 @@ background: #ddd;
 
 .card-content p, .card-content h3 {
   margin: 0;
+}
+
+.card-content-post {
+  width: 750px;
+  background: white;
+  min-height: 290px;
+}
+
+.card-content-post h2 {
+  margin-top: 0;
 }
 
 .text-content {
@@ -65,7 +80,7 @@ background: #ddd;
   padding: 15px;
 }
 
-.social a:nth-child(2){
+.social a:nth-child(2) {
   background: #007bb5;
 }
 
@@ -77,12 +92,18 @@ background: #ddd;
   margin-top: 50px;
   background: white;
   height: 50px;
+  /*positon fixed keeps footer at bottom of page*/
   position:fixed;
+  /*bottom and left act as margin*/
   bottom: 0;
   left: 0;
+  /*width tells the footer to push to full size of display*/
   width: 100%;
 }
 
 #contact-title {
   text-align: center;
+}
+#copyright {
+  text-align: left;
 }
