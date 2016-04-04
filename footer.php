@@ -4,7 +4,7 @@
 " target="'newwindow'"><i class="fa fa-linkedin"></i></a>
 </div>
 
-<footer>
+<footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col-md-4">
