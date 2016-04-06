@@ -25,6 +25,30 @@ background: #ddd;
   font-size: 26px;
 }
 
+.post .row {
+  margin-top: 20px;
+}
+
+.post .card p {
+  margin: 10px 10px  10px 10px;
+}
+
+.post h4 {
+  padding-left: 10px
+}
+
+.post h2 {
+  padding-left: 10px
+}
+
+.post .card-content {
+  min-height: 215px;
+}
+
+.sidebar {
+  min-height: 615px;
+}
+
 .card {
   box-shadow: 0 0 5px #ccc;
 }
@@ -48,13 +72,13 @@ background: #ddd;
   margin: 0;
 }
 
-.card-content-post {
-  width: 750px;
+.card-content {
+  width: 100%;
   background: white;
   min-height: 290px;
 }
 
-.card-content-post h2 {
+.card-content h2 {
   margin-top: 0;
 }
 
