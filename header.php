@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title>Michael Washburn</title>
   <?php wp_head(); ?>
 </head>
@@ -26,7 +23,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#featured">Home</a></li>
           <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="<?php bloginfo('wpurl') ?>/projects">Projects</a></li>
           <li><a href="#find">Contact</a></li>
         </ul>
       </div><!-- collapse navbar-collapse-->

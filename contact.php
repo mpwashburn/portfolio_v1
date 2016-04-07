@@ -21,22 +21,29 @@ Template Name: Contact
     <div class="col-md-6 col-md-offset-3">
         <!-- content function grabs post/page content including html tags -->
         <?php the_content(); ?>
-      <form>
+      <form id="email-form" class="form">
         <div class="form-group">
           <h2>Contact me here:</h2>
           <label for="name">Your name</label>
-          <input type="text" class="form-control" id="name" placeholder="Name">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name">
         </div>
         <div class="form-group">
           <label for="email">Your email</label>
-          <input type="email" class="form-control" id="email" placeholder="Email">
+          <input type="email" class="form-control" id="email" name="email"placeholder="Email">
         </div>
         <div class="form-group">
           <label for="text">Message</label>
-          <textarea class="form-control" rows="5" placeholder="Compose a beauiful message here..."></textarea>
+          <textarea class="form-control" rows="5" name="message" placeholder="Compose a beauiful message here..."></textarea>
         </div>
           <button type="submit" class="btn btn-default">Send</button>
       </form>
+
+      <!-- this is where errors will be outputed -->
+      <div class="row">
+        <div class="col-md-12">
+          <div id="form-results"></div>
+      </div>
+      </div>
     </div>
   </div>
   </div>

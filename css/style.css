@@ -1,5 +1,5 @@
 body{
-/*padding-bottom: 200px;*/
+padding-bottom: 200px;
 background: #ddd;
 }
 
@@ -25,30 +25,6 @@ background: #ddd;
   font-size: 26px;
 }
 
-.post .row {
-  margin-top: 20px;
-}
-
-.post .card p {
-  margin: 10px 10px  10px 10px;
-}
-
-.post h4 {
-  padding-left: 10px
-}
-
-.post h2 {
-  padding-left: 10px
-}
-
-.post .card-content {
-  min-height: 215px;
-}
-
-.sidebar {
-  min-height: 615px;
-}
-
 .card {
   box-shadow: 0 0 5px #ccc;
 }
@@ -66,16 +42,12 @@ background: #ddd;
   background: white;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+  width: 100%;
+  min-height: 290px;
 }
 
 .card-content p, .card-content h3 {
   margin: 0;
-}
-
-.card-content {
-  width: 100%;
-  background: white;
-  min-height: 290px;
 }
 
 .card-content h2 {
@@ -111,7 +83,31 @@ background: #ddd;
 .social a:first-child{
   background: black;
 }
+/****************Single.php**********************/
+.post .row {
+  margin-top: 20px;
+}
 
+.post .card p {
+  margin: 10px 10px  10px 10px;
+}
+
+.post h4 {
+  padding-left: 10px
+}
+
+.post h2 {
+  padding-left: 10px
+}
+
+.post .card-content {
+  min-height: 215px;
+}
+
+.sidebar {
+  min-height: 615px;
+}
+/*********************Footer*****************************/
 .footer {
   margin-top: 50px;
   background: white;
