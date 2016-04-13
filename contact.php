@@ -1,7 +1,6 @@
-<?php/*
-Template Name: Contact
-*/?>
+<?php /*Template Name: Contact*/ ?>
 <!-- commented code above allows for a page template to be created. It contains the same code as the page.php file (as seen below)-->
+
 <?php get_header(); ?>
 
 <?php if (have_posts()) : ?>

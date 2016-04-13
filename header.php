@@ -7,7 +7,7 @@
   <title>Michael Washburn</title>
   <?php wp_head(); ?>
 </head>
-<body class="grad">
+<body>
 <nav id="mynav" class="navbar navbar-default" role=navigation>
   <div class="container-fluid">
     <div class="navbar-header">
@@ -21,10 +21,10 @@
       </div><!-- navbar-header -->
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#featured">Home</a></li>
-          <li><a href="#about">About Me</a></li>
+          <li><a href="<?php bloginfo('wpurl') ?>">Home</a></li>
+          <li><a href="<?php bloginfo('wpurl') ?>/about-me">About Me</a></li>
           <li><a href="<?php bloginfo('wpurl') ?>/projects">Projects</a></li>
-          <li><a href="#find">Contact</a></li>
+          <li><a href="<?php bloginfo('wpurl') ?>/contact">Contact</a></li>
         </ul>
       </div><!-- collapse navbar-collapse-->
   </div>

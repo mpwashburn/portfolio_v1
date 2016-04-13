@@ -8,6 +8,14 @@ background: #ddd;
   width: 100%;
   height: auto;
 }
+
+.navbar-brand{
+  font-size: 36px;
+}
+.subhead{
+  font-size: 26px;
+}
+
 #mynav{
   margin-bottom: 0;
 }
@@ -18,11 +26,22 @@ background: #ddd;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.navbar-brand{
-  font-size: 36px;
+
+#jumbo-text {
+  padding: 3% 3% 3% 3%;
+  background: black;
+  color: white;
 }
-.subhead{
-  font-size: 26px;
+
+.page-break {
+  background: black;
+  color: white;
+  margin: 0;
+}
+
+.page-break h1 {
+  margin: 0;
+  padding-left: 1%
 }
 
 .card {
